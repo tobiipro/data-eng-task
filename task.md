@@ -318,7 +318,7 @@ plt.show()
 ```
 
 
-![png](Interview%20Exercise%20-%20Event%20Data%20Analytics%20Example_files/Interview%20Exercise%20-%20Event%20Data%20Analytics%20Example_17_0.png)
+![png](task_files/task_17_0.png)
 
 
 ### Example JSON analysis
@@ -386,7 +386,7 @@ df_hostname_popular.groupby(['Hour','Hostname']).size().unstack().plot(kind='bar
 
 
 
-![png](Interview%20Exercise%20-%20Event%20Data%20Analytics%20Example_files/Interview%20Exercise%20-%20Event%20Data%20Analytics%20Example_23_1.png)
+![png](task_files/task_23_1.png)
 
 
 The following code prints out the content fields for a single `beacon-in-view-event` to illustrate the fields it contains. It should be noted that `beacon.meta.html`contains a large amount of html data to process.
