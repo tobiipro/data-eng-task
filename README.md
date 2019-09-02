@@ -6,7 +6,7 @@ If you are familiar with Python and Jupyter Notebooks,
 the same task is available as [a Jupyter Notebook](task.ipynb) along with some illustrative code,
 but none of these technologies are required for you to complete the task.
 
-The data required for the task can be found in [a compressed tar file](data.tar.gz).
+The data required for the task can be found in [a compressed tar file](sample_data_190819.tar.gz).
 
 
 ## Intended use of this task
