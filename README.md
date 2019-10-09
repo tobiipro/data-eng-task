@@ -8,6 +8,8 @@ but none of these technologies are required for you to complete the task.
 
 The data required for the task can be found in [a compressed tar file](sample_data_190819.tar.gz).
 
+This task is part of the hiring process for [this position](https://careers.tobii.com/jobs/239179-data-and-machine-learning-engineer-to-tobii-pro)
+
 
 ## Intended use of this task
 
