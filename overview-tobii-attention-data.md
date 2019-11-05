@@ -22,10 +22,30 @@ As part of our data collection process, we monitor different lifecycles, such as
 * beacon artifact (e.g. a screenshot of an ad or a collection of eyetracker gazepoints)
   * 'application/vnd.tobii.atex.beacon-artifact-event-v1+json'
 
-Each of these events carry data about the browser status, the eyetracker status, the screen coordinates, beacon HTML content, beacon meta data (such as brand, campaign name, etc).
-These will be post-processed and augmented in order to analyze information that might not be available in clear text e.g. brand.
+In addition to these metrics and structured data, we also collect "artifacts" relevant to each beacons, such as
 
-Below you can see an example of
+* screenshots
+* eyetracker gazepoints
+* mouse-hovering coordinates
+* etc
+
+Each of these events carry data about
+
+* the browser status,
+* the eyetracker status,
+* the screen coordinates,
+* beacon HTML content,
+* beacon meta data (such as brand, campaign name, etc),
+* etc.
+
+The events, along with the artifacts, will be post-processed and augmented
+in order to analyze information that might not be available in clear text e.g. brand.
+
+Below you can see an example of this ad (actual screenshot taken by us)
+
+![screenshot](./overview-tobii-attention-data-c95a18ef-a3aa-4dba-a913-df95c84ddba2.png "screenshot")
+
+which is
 
 * an in-view event (application/vnd.tobii.atex.beacon-in-view-event-v1+json)
 * related to a Casumo ad
